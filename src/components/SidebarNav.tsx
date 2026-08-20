@@ -10,7 +10,6 @@ import {
   Gauge, 
   ShieldAlert, 
   BookOpen, 
-  Settings,
   Layers,
   Archive,
   Download,
@@ -52,7 +51,6 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
     { id: 'decisions', label: 'مصفوفة القرارات (Decision Matrix)', icon: <CheckSquare className="w-4 h-4" /> },
     { id: 'playbooks', label: 'خطط العلاج والتوصيات', icon: <BookOpen className="w-4 h-4" /> },
     { id: 'snapshot_vault', label: 'الأرشفة الأسبوعية والـ YoY (Vault)', icon: <Archive className="w-4 h-4" /> },
-    { id: 'settings', label: 'إعدادات النظام', icon: <Settings className="w-4 h-4" /> },
   ];
 
   return (
